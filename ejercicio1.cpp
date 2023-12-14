@@ -1,6 +1,6 @@
 #include "iostream"
 #include "string"
-
+#include "vector"
 using namespace std;
 
 //Definir estructura estudiante
@@ -16,6 +16,18 @@ void mostrarEstudiante(Estudiante estudiante){
     cout<<"Promedio: "<<estudiante.promedio<<endl;
 }
 
+<<<<<<< Updated upstream
+=======
+// Definición de la estructura Materia
+struct Materia {
+    string nombre;
+    float calificacion;
+};
+
+
+    vector<Materia> materias; // Vector de materias en las que está inscrito el estudiante
+
+>>>>>>> Stashed changes
 int main()
 {
     //Definir variable de tipo estudiante
