@@ -7,6 +7,9 @@ struct Estudiante{
     int edad;
     float promedio;
 };
+#define EXITO 0
+#define MATERIA_NO_REGISTRADA -1
+
 
 //Declaracion funcion estudiante en c
 void mostrarEstudiante(Estudiante estudiante);
@@ -25,6 +28,14 @@ int main(){
 
     //Mostrar los datos del estudiante
     mostrarEstudiante(estudiante);
+    if (resultado == MATERIA_NO_REGISTRADA) {
+        printf("Error: Materia no registrada.\n");
+        return MATERIA_NO_REGISTRADA;
+        resultado = agregarMateria(&estudiante, "Historia", 7.5);
+        if (resultado == MATERIA_NO_REGISTRADA) {
+            printf("Error: Materia no registrada.\n");
+            return MATERIA_NO_REGISTRADA;
+        }
 
-    return 0;
+        return 0;
 }
