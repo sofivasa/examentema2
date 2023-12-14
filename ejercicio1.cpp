@@ -24,14 +24,31 @@ struct Materia {
     float calificacion;
 };
 
+<<<<<<< Updated upstream
 
     vector<Materia> materias; // Vector de materias en las que está inscrito el estudiante
+
+>>>>>>> Stashed changes
+=======
+//Funcion mostrar estudiante
+void mostrarEstudiante(Estudiante estudiante)
+{
+    cout << "Nombre: " << estudiante.nombre << endl;
+    cout << "Edad: " << estudiante.edad << endl;
+    cout << "Promedio: " << estudiante.promedio << endl;
+}
+
+//definicion estrucutura materia
 
 >>>>>>> Stashed changes
 int main()
 {
     //Definir variable de tipo estudiante
     Estudiante estudiante;
+    struct Materia {
+        string nombre;
+        float calificacion;
+    };
 
     //Pedir datos al usuario
     cout << "Nombre: ";
