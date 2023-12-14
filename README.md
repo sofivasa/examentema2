@@ -19,3 +19,8 @@ Estructura (archivo ejercicio1.ccp y ejercicio1c.ccp)
 2- despues definimos la estructura utilizando "struct" (usando char,int, y float)
 3_ decalaramos la funcion con "void"
 4- Definimos la variable y pedimos los datos del estudiante. En caso de c++ usando "cout y cin" y en c "printf y scanf" 
+
+Registro de Asistencia y Manejo de Excepciones: 
+
+Se decalra las funciones para la gestion de las materias utilizando int, void. Para en caso de errores en materias se utiliza el "if". 
+Incrementar el tamaño del arreglo de materias con strcpy
