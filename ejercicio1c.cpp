@@ -6,3 +6,7 @@ struct Estudiante{
     int edad;
     float promedio;
 };
+
+//Declaracion funcion estudiante en c
+void mostrarEstudiante(Estudiante estudiante);
+
