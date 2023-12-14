@@ -16,22 +16,21 @@ void mostrarEstudiante(Estudiante estudiante){
     cout<<"Promedio: "<<estudiante.promedio<<endl;
 }
 
-<<<<<<< Updated upstream
-=======
+
+
 // Definición de la estructura Materia
 struct Materia {
     string nombre;
     float calificacion;
 };
 
-<<<<<<< Updated upstream
 
     vector<Materia> materias; // Vector de materias en las que está inscrito el estudiante
 
->>>>>>> Stashed changes
-=======
+
+
 //Funcion mostrar estudiante
-void mostrarEstudiante(Estudiante estudiante)
+void mostrarestudiante(Estudiante estudiante)
 {
     cout << "Nombre: " << estudiante.nombre << endl;
     cout << "Edad: " << estudiante.edad << endl;
@@ -39,8 +38,21 @@ void mostrarEstudiante(Estudiante estudiante)
 }
 
 //definicion estrucutura materia
+struct materia
+{
+    string nombre;
+    float calificacion;
+};
+// Declaración de funciones para la gestión de materias
+void agregarMateria(Estudiante& estudiante, const string& nombreMateria, float calificacion);
+void eliminarMateria(Estudiante& estudiante, const string& nombreMateria);
+void mostrarMaterias(const Estudiante& estudiante);
 
->>>>>>> Stashed changes
+// Declaración de la función mostrarEstudiante
+void mostrarEstudiante(const Estudiante& estudiante);
+
+
+
 int main()
 {
     //Definir variable de tipo estudiante
@@ -59,7 +71,7 @@ int main()
     cin >> estudiante.promedio;
     
     //Mostrar los datos del estudiante
-    mostrarEstudiante(estudiante);
+    mostrarestudiante(estudiante);
 
     return 0;
 }

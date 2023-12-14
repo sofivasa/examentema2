@@ -1,8 +1,4 @@
 /Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -DCMAKE_BUILD_TYPE=Debug -DCMAKE_MAKE_PROGRAM=/Applications/CLion.app/Contents/bin/ninja/mac/ninja -G Ninja -S /Users/sofivazsanch/Documents/GitHub/examentema2 -B /Users/sofivazsanch/Documents/GitHub/examentema2/cmake-build-debug
-<<<<<<< HEAD
 -- Configuring done (0.2s)
-=======
--- Configuring done (0.1s)
->>>>>>> 7afedf884ea5b3c713858aed3dd1b74928ddf390
 -- Generating done (0.0s)
 -- Build files have been written to: /Users/sofivazsanch/Documents/GitHub/examentema2/cmake-build-debug
