@@ -73,6 +73,22 @@ int main()
     //Mostrar los datos del estudiante
     mostrarestudiante(estudiante);
 
+    // Agregar materias
+    agregarMateria(estudiante, "Matemáticas", 9.0);
+    agregarMateria(estudiante, "Historia", 7.5);
+
+    // Mostrar información del estudiante y sus materias
+    mostrarestudiante(estudiante);
+    mostrarMaterias(estudiante);
+
+    // Eliminar una materia
+    eliminarMateria(estudiante, "Historia");
+
+    // Mostrar información actualizada
+    mostrarestudiante(estudiante);
+    mostrarMaterias(estudiante);
+
+
     return 0;
 }
 
