@@ -15,3 +15,17 @@ void mostrarEstudiante(Estudiante estudiante){
     cout<<"Edad: "<<estudiante.edad<<endl;
     cout<<"Promedio: "<<estudiante.promedio<<endl;
 }
+
+int main()
+{
+    //Definir variable de tipo estudiante
+    Estudiante estudiante;
+
+    //Pedir datos al usuario
+    cout << "Nombre: ";
+    getline(cin, estudiante.nombre);
+    cout << "Edad: ";
+    cin >> estudiante.edad;
+    cout << "Promedio: ";
+    cin >> estudiante.promedio;
+    
