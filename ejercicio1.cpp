@@ -92,3 +92,24 @@ int main()
     return 0;
 }
 
+// Implementación de funciones para la gestión de materias
+void agregarMateria(Estudiante& estudiante, const string& nombreMateria, float calificacion) {
+    Materia materia = {nombreMateria, calificacion};
+    estudiante.materia.push_back(materia);
+}
+
+void eliminarMateria(Estudiante& estudiante, const string& nombreMateria) {
+    for (auto it = estudiante.materia.begin(); it != estudiante.materia.end(); ++it) {
+        if (it->nombre == nombreMateria) {
+            estudiante.materia.erase(it);
+            break;
+        }
+    }
+}
+
+void mostrarMaterias(const Estudiante& estudiante) {
+    cout << "Materias inscritas:" << endl;
+    for (const auto& materia : estudiante.materia) {
+        cout << "- " << materia.nombre << ": " << materia.calificacion << endl;
+    }
+}
