@@ -2,7 +2,7 @@
 
 //Definir estructura estudiante
 struct Estudiante{
-    string nombre;
+    char nombre;
     int edad;
     float promedio;
 };
