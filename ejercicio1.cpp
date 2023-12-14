@@ -29,3 +29,9 @@ int main()
     cout << "Promedio: ";
     cin >> estudiante.promedio;
     
+    //Mostrar los datos del estudiante
+    mostrarEstudiante(estudiante);
+
+    return 0;
+}
+
