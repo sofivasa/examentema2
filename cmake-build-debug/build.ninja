@@ -54,6 +54,15 @@ build CMakeFiles/examentema2.dir/ejercicio1.cpp.o: CXX_COMPILER__examentema2_uns
   FLAGS = -g -std=gnu++14 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk -mmacosx-version-min=12.6 -fcolor-diagnostics
   OBJECT_DIR = CMakeFiles/examentema2.dir
   OBJECT_FILE_DIR = CMakeFiles/examentema2.dir
+<<<<<<< HEAD
+=======
+
+build CMakeFiles/examentema2.dir/ejercicio1c.cpp.o: CXX_COMPILER__examentema2_unscanned_Debug /Users/sofivazsanch/Documents/GitHub/examentema2/ejercicio1c.cpp || cmake_object_order_depends_target_examentema2
+  DEP_FILE = CMakeFiles/examentema2.dir/ejercicio1c.cpp.o.d
+  FLAGS = -g -std=gnu++14 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk -mmacosx-version-min=12.6 -fcolor-diagnostics
+  OBJECT_DIR = CMakeFiles/examentema2.dir
+  OBJECT_FILE_DIR = CMakeFiles/examentema2.dir
+>>>>>>> 7afedf884ea5b3c713858aed3dd1b74928ddf390
 
 
 # =============================================================================
@@ -63,7 +72,7 @@ build CMakeFiles/examentema2.dir/ejercicio1.cpp.o: CXX_COMPILER__examentema2_uns
 #############################################
 # Link the executable examentema2
 
-build examentema2: CXX_EXECUTABLE_LINKER__examentema2_Debug CMakeFiles/examentema2.dir/ejercicio1.cpp.o
+build examentema2: CXX_EXECUTABLE_LINKER__examentema2_Debug CMakeFiles/examentema2.dir/ejercicio1.cpp.o CMakeFiles/examentema2.dir/ejercicio1c.cpp.o
   FLAGS = -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk -mmacosx-version-min=12.6
   OBJECT_DIR = CMakeFiles/examentema2.dir
   POST_BUILD = :

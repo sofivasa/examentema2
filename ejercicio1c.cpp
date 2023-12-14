@@ -1,6 +1,10 @@
 #include "studioh"
 #include <cstdio>
+<<<<<<< HEAD
 #include <vector>
+=======
+
+>>>>>>> 7afedf884ea5b3c713858aed3dd1b74928ddf390
 //Definir estructura estudiante
 struct Estudiante{
     char nombre;
@@ -11,8 +15,11 @@ struct Estudiante{
 //Declaracion funcion estudiante en c
 void mostrarEstudiante(Estudiante estudiante);
 
+<<<<<<< HEAD
 
 
+=======
+>>>>>>> 7afedf884ea5b3c713858aed3dd1b74928ddf390
 int main(){
     //Definir variable de tipo estudiante
     Estudiante estudiante;
